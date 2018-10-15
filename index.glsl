@@ -1,5 +1,5 @@
 bool outOfRange(float a, float b, float p) {
-  if ((p > max(a, b) || 
+  if ((p > max(a, b)) ||
       (p < min(a, b))) return true;
   return false;
 }

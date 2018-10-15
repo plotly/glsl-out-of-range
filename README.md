@@ -20,7 +20,7 @@ Please note that in the case of vec4 input arguments, only 3 tests are made i.e.
 #pragma glslify: outOfRange = require(glsl-out-of-range)
 
 void main() {
-  if outOfRange(bounds[0], bounds[1], position) discard;
+  if (outOfRange(bounds[0], bounds[1], position)) discard;
 
   gl_FragColor = vec4(1.0, 0.5, 0.25, 1.0);
 }
