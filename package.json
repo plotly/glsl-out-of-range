@@ -1,6 +1,6 @@
 {
   "name": "glsl-out-of-range",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functions to test if a point is outside ranges, namely useful for 3D/2D scenes that may have reversed bounds",
   "main": "index.js",
   "directories": {},
@@ -11,25 +11,26 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/archmoj/glsl-out-of-range.git"
+    "url": "git://github.com/plotly/glsl-out-of-range.git"
   },
   "keywords": [
     "plotly",
     "plotly.js",
     "reversed range",
-    "3d scene",
-    "2d scene",
+    "3D scene",
+    "2D scene",
     "webgl",
+    "shader function",
     "glsl",
     "glslify"
   ],
-  "author": "Mojtaba Samimi",
+  "author": "Plotly, Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/archmoj/glsl-out-of-range/issues"
+    "url": "https://github.com/plotly/glsl-out-of-range/issues"
   },
   "browserify": {
     "transform": "glslify"
   },
-  "homepage": "https://github.com/archmoj/glsl-out-of-range"
+  "homepage": "https://github.com/plotly/glsl-out-of-range"
 }

@@ -1,4 +1,4 @@
-# glsl-out-of-range
+## glsl-out-of-range
 Tests if a point is outside ranges. 
 It could be useful in vertex & fragment shaders to support reversed ranges (bounds) in 3D/2D scenes.
 
@@ -14,7 +14,7 @@ bool outOfRange(vec4 a, vec4 b, vec4 p);
 
 Please note that in the case of vec4 input arguments, only 3 tests are made i.e. for xyz and not for w.
 
-# Example
+## Example
 
 ```glsl
 #pragma glslify: outOfRange = require(glsl-out-of-range)
@@ -26,7 +26,7 @@ void main() {
 }
 ```
 
-# Usage
+## Usage
 
 Install with npm:
 
@@ -36,11 +36,24 @@ npm install glsl-out-of-ranges
 
 Then use with [glslify](https://github.com/stackgl/glslify).
 
-# API
+## API
 
 ```glsl
 #pragma glslify: outOfRange = require(glsl-out-of-range)
 ```
 
-# License
-(c) 2018 Mojtaba Samimi. MIT License
+## Creators
+
+|   | Github | Twitter |
+|---|--------|---------|
+|**Alex C. Johnson**| [@alexcjohnson](https://github.com/alexcjohnson) | |
+|**Étienne Tétreault-Pinard**| [@etpinard](https://github.com/etpinard) | [@etpinard](https://twitter.com/etpinard) |
+|**Mojtaba Samimi**| [@archmoj](https://github.com/archmoj) | |
+
+## Copyright and license
+
+Code and documentation copyright 2018 Plotly, Inc.
+
+Code released under the [MIT license](https://github.com/plotly/plotly.js/blob/master/LICENSE).
+
+Docs released under the [Creative Commons license](https://github.com/plotly/documentation/blob/source/LICENSE).
