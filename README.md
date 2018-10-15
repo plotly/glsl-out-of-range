@@ -3,9 +3,13 @@ Tests if a point is outside ranges.
 It could be useful in vertex & fragment shaders to support reversed ranges (bounds) in 3D/2D scenes.
 
 Function prototypes:
+
 bool outOfRange(float a, float b, float p);
+
 bool outOfRange(vec2 a, vec2 b, vec2 p);
+
 bool outOfRange(vec3 a, vec3 b, vec3 p);
+
 bool outOfRange(vec4 a, vec4 b, vec4 p);
 
 Please note that in the case of vec4 input arguments, only 3 tests are made i.e. for xyz and not for w.
