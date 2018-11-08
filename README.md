@@ -31,7 +31,7 @@ void main() {
 Install with npm:
 
 ```
-npm install glsl-out-of-ranges
+npm install glsl-out-of-range
 ```
 
 Then use with [glslify](https://github.com/stackgl/glslify).
